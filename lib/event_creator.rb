@@ -25,7 +25,7 @@ class EventCreator
 		puts "Génial. Qui va participer ? Balance leurs e-mails?"
 		print "> "
 		attendees = gets.chomp
-		puts "Super, c'est noté, ton évènement a été créé !"
+		puts "Super, c'est noté, ton évènement a été créé ! Entre Calendar.display pour afficher ton agenda à jour"
 		return attendees = attendees.split(/[,\s]+/)
 	end
 

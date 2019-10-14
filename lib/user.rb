@@ -17,7 +17,7 @@ class User
 
   def self.find_by_email(user_email)
     @@user_all.each do |user| 
-      if user.email.includ == user_email
+      if user.email == user_email
       return user
       end
     end
